@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name        Idotaba Easy Reply
 // @namespace   
-// @description 
 // @description At Idobata, reply work add to textarea for click user icon
 // @includes    https://idobata.io/*
 // @excludes    
