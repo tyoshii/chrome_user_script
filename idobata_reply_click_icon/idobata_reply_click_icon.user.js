@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Idotaba Easy Reply
+// @name        Idobata Easy Reply
 // @namespace   
 // @description At Idobata, reply work add to textarea for click user icon
 // @includes    https://idobata.io/*
@@ -8,6 +8,8 @@
 // ==/UserScript==
 
 window.onload = function(){
+  console.log("Idobata Easy Reply user script onload");
+
   $("li p.icon img").click(function() {
     var name = $(this).parents("li").find("div.message div.header div.name").text();
     var area = $("div.room-content textarea");
