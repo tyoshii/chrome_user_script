@@ -7,9 +7,10 @@
 // @version     1.0.0
 // ==/UserScript==
 
-window.onload = function(){
-  console.log("Idobata Easy Reply user script onload");
+// no jquery load to idobata
+// no move this user script
 
+window.onload = function(){
   $("li p.icon img").click(function() {
     var name = $(this).parents("li").find("div.message div.header div.name").text();
     var area = $("div.room-content textarea");
